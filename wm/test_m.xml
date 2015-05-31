@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wm>
+<Menus>
+  <menu id="A6" price="20" title="xxxx" max="10" type="0" purl="http://www.fanyoyo.cn/wm_food/wm_1_c.jpg" />
+</Menus>
+<Now discount='0'>
+  <week num="1" list="A6" />
+</Now>
+<Time discount="1">
+  <week num="3" list="A6" />
+</Time>
+</Wm>

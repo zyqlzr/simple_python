@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><title>饭优悠</title>
+<meta charset="utf-8"></meta>
+<meta content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"></meta>
+<script src="http://www.fanyoyo.cn/js/core.js" type="text/javascript"></script>
+<link href="http://www.fanyoyo.cn/css/base.css" type="text/css" rel="stylesheet" />
+<link href="http://www.fanyoyo.cn/css/fyy_wm22.css" type="text/css" rel="stylesheet" />
+</head>
+<body><header class="fyy-hh"><h1><i class="title"></i>
+<span>订餐：9:00-23:00</span>
+</h1>
+</header>
+<div class="fyy-dinner"><section class="fyy-tt"><img src="http://www.fanyoyo.cn/wm_food/wm_1_a.jpg" />
+<div class="fyy-tt-c"><p>xxxx<strong>12<b>￥</b>
+</strong>
+</p>
+</div>
+<div class="fyy-tt-sel"><span class="minus"><b></b>
+</span>
+<span class="num" data-food=A1 data-discount=0 data-price=12 data-title=xxxx>0</span>
+<span class="plus"><b></b>
+</span>
+</div>
+<div class="fyy-tt-tips hide"></div>
+</section>
+<div class="fyy-submit"><span class="all-sel">已选：<strong id="sel_num">0份</strong>
+</span>
+<span class="all-money">总计：<strong id="money_num">0.00元</strong>
+</span>
+<span id="submit" class="checkmark"></span>
+</div>
+</div>
+<script type="text/javascript">
+var submit_dom = document.getElementById('submit');
+var sel_num_dom = $('#sel_num');
+var money_num_dom = $('#money_num');
+
+var sel_num_counter = 0;
+var money_num_counter = 0;
+var orders = {};
+var timeout_counter = null;
+
+var _msg = function(dom, msg){
+    var tip_dom = $(dom).parent().parent().find('.fyy-tt-tips');
+    tip_dom.html(msg).removeClass('hide');
+    if(timeout_counter!=null)clearTimeout(timeout_counter);
+    timeout_counter = setTimeout(function(){tip_dom.addClass('hide')}, 1500);
+}
+
+var _show = function(){
+    sel_num_dom.html(sel_num_counter+'浠??');
+    money_num_dom.html(money_num_counter);
+}
+
+$(document).on('touchend', '.minus', function(){
+    var dom = $(this).next();
+    if('0'==dom.html())return;
+    var newnum = Number(dom.html()) - 1;
+    var price = Number(dom.data('price'));
+    var title = dom.data('title');
+
+    if(newnum>=0){
+        sel_num_counter--;
+        money_num_counter -= price;
+        _show();
+    }
+
+    if(newnum<=0){
+        newnum=0;
+    }
+    
+    if(sel_num_counter<=0){
+        submit_dom.className = 'checkmark';
+    }
+    dom.html(newnum);
+    orders[dom.data('food')] = {'num':newnum,  'title':title};;
+});
+
+$(document).on('touchend', '.plus', function(){
+    var dom = $(this).prev();
+    var newnum = Number(dom.html())+1;
+    var price = Number(dom.data('price'));
+    var title = dom.data('title');
+
+    sel_num_counter++;
+    money_num_counter += price;
+    _show();
+    submit_dom.className = 'checkmark_on';
+    dom.html(newnum);
+    orders[dom.data('food')] = {'num':newnum,  'title':title};
+});
+
+$('#submit').on('tap', function(){
+    if(sel_num_counter<=0)return;
+    json = JSON.stringify(orders);
+    LS.set('orders', json);
+    LS.set('price', money_num_counter);
+    location.href = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3de96fc1838e3116&redirect_uri=http://www.fanyoyo.cn/openid&response_type=code&scope=snsapi_base&state=1#wechat_redirect';
+});
+
+_show();
+</script>
+</body>
+</html>

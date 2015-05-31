@@ -1,0 +1,11 @@
+
+<xml>
+    <ToUserName><![CDATA[zyqlzr]]></ToUserName>
+    <Encrypt><![CDATA[5idJ5kccERZVHzPvE3DZj4DCMFNIN8Q5mo3aiNvu12bga2nCrDs+9hQTuCsDASymfl0SL1Uh/qLhMG9P24kna2sIjoS2UdnjcF1cilDzxIvtnMjg/2AO4QA/CrxqrZaBkVopUzpAQnphfAXls+TEyHumBMeiOnL7Zp8EfBv/jU0R9aWfaBHHtUDDB8i4XUq6b+Td3gEO8GSp730Spdvy5nbBAPmKEjAVtq/q+zXEqvfpBoCFIu1zNSCGmoZdE6RhNzx8Y64gd9SUZcMHxgJU8Tca0ha+05PB+l2JbKN8OTNgN0IX3fPHlsH/z6aDiRYvFwf+a+qdPsjvUtTpQIntMl+jGcDchUDsq785PdXukoh7GqX0eQ2yesT24wuiqsY4ybQ/GCc1LqfpJ1Koc6JzO5OwrXa9/gmlK36T2bQATUA=]]></Encrypt>
+</xml>
+
+
+/main?signature=9495e847211a4a93e26b695128775e26ad04d610&timestamp=1422063521&nonce=327633886&encrypt_type=aes&msg_signature=8155e42be15abf5dc7fbde0922976ec5c6ae1eff
+
+
+request_arguments={'nonce': ['327633886'], 'timestamp': ['1422063521'], 'encrypt_type': ['aes'], 'msg_signature': ['8155e42be15abf5dc7fbde0922976ec5c6ae1eff'], 'signature': ['9495e847211a4a93e26b695128775e26ad04d610']}

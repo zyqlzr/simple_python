@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Discount>
+<DC>
+  <discount type="1" title="首次点餐半价" price="16" />
+  <discount type="2" title="赠送饮料" price="15" />
+</DC>
+</Discount>

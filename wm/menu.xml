@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wm>
+<Menus>
+  <menu id="A1" price="16" title="红烧排骨" max="10" type="0" purl="http://www.fanyoyo.cn/wm_food/wm_1_a.jpg" des="配菜：应季时蔬；米饭：东北大米；油：金龙鱼花生油"/>
+  <menu id="A2" price="15" title="小炒鸡" max="10" type="0" purl="http://www.fanyoyo.cn/wm_food/wm_1_b.jpg" des="配菜：应季时蔬；米饭：东北大米；油：金龙鱼花生油"/>
+  <menu id="A3" price="12" title="麻婆豆腐" max="10" type="1" purl="http://www.fanyoyo.cn/wm_food/wm_1_c.jpg" des="配菜：应季时蔬；米饭：东北大米；油：金龙鱼花生油"/>
+  <menu id="A4" price="16" title="香辣猪蹄" max="10" type="0" purl="http://www.fanyoyo.cn/wm_food/wm_2_a.jpg" des="配菜：应季时蔬；米饭：东北大米；油：金龙鱼花生油"/>
+  <menu id="A5" price="15" title="红烧鱼块" max="10" type="0" purl="http://www.fanyoyo.cn/wm_food/wm_2_b.jpg" des="配菜：应季时蔬；米饭：东北大米；油：金龙鱼花生油"/>
+  <menu id="A6" price="12" title="豆角烧茄子" max="10" type="1" purl="http://www.fanyoyo.cn/wm_food/wm_2_c.jpg" des="配菜：应季时蔬；米饭：东北大米；油：金龙鱼花生油"/>
+  <menu id="A7" price="15" title="回锅肉" max="10" type="0" purl="http://www.fanyoyo.cn/wm_food/wm_3_a.jpg" des="配菜：应季时蔬；米饭：东北大米；油：金龙鱼花生油"/>
+  <menu id="A8" price="15" title="玉米鸡仁" max="10" type="0" purl="http://www.fanyoyo.cn/wm_food/wm_3_b.jpg" des="配菜：应季时蔬；米饭：东北大米；油：金龙鱼花生油"/>
+  <menu id="A9" price="12" title="西红柿炒蛋" max="10" type="1" purl="http://www.fanyoyo.cn/wm_food/wm_3_c.jpg" des="配菜：应季时蔬；米饭：东北大米；油：金龙鱼花生油"/>
+  <menu id="A10" price="4" title="可口可乐" max="10" type="2" purl="http://www.fanyoyo.cn/wm_food/wm_coco.jpg" des="配菜：应季时蔬；米饭：东北大米；油：金龙鱼花生油"/>
+  <menu id="A11" price="4" title="百事可乐" max="10" type="2" purl="http://www.fanyoyo.cn/wm_food/wm_bs.jpg" des="配菜：应季时蔬；米饭：东北大米；油：金龙鱼花生油"/>
+</Menus>
+<Now discount='0'>
+  <week num='1' list='A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,A11' />
+  <week num='2' list='A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,A11' />
+  <week num='3' list='A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,A11' />
+  <week num='4' list='A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,A11' />
+  <week num='5' list='A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,A11' />
+  <week num='6' list='A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,A11' />
+  <week num='7' list='A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,A11' />
+</Now>
+<Time discount='1'>
+  <week num='1' list='A1,A2,A3' />
+  <week num='2' list='A1,A2,A3' />
+  <week num='3' list='A1,A2,A3' />
+  <week num='4' list='A1,A2,A3' />
+  <week num='5' list='A1,A2,A3' />
+  <week num='6' list='A1,A2,A3' />
+  <week num='7' list='A1,A2,A3' />
+</Time>
+</Wm>

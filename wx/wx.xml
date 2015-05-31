@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WX>
+<App>
+  <token val="fanyoyo2015zj" />
+  <appid val="wx3de96fc1838e3116" />
+  <appsecret val="09d3bf68705c65a4ee685f0f4243aa53" />
+  <!--none-encode 0, Compatible 1, AES 2  -->
+  <encode type="0" key='1v34mjzIhXMMYdT7BLhOq3kKI0VjVGnU0cavvh3CCkd' />
+  <WXID val="gh_2d983e3a6a3a" />
+</App>
+<WebSvr ip="172.22.128.116" port="8008" />
+<MongoDB>
+  <Net ip="10.249.146.92" port="6006" />
+  <User name="user" />
+  <UserAction name="user_action" />
+  <UserFeedback name="user_feedback" />
+  <Menu name="menu" />
+  <Stat name="stat" />
+  <Admin name="admin" />
+  <Cache name="cache" />
+  <Order name="order" />
+  <Shopping name="shopping" />
+  <Week_now name="week_now" />
+  <Week_time name="week_time" />
+</MongoDB>
+</WX>

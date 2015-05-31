@@ -1,0 +1,20 @@
+
+
+request_method=POST
+request_url=/main?signature=3ffc6f0e857db22d76d45f8e9176b666b6f6a8b5&timestamp=1422064839&nonce=1703038040&encrypt_type=aes&msg_signature=c531181a5829db738c504aa129f7a25026ced2d5
+request_headers={'Content-Length': '787', 'Connection': 'Keep-Alive', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0', 'Host': '119.29.55.111', 'Pragma': 'no-cache', 'Content-Type': 'text/xml'}
+request_body=<xml>
+    <URL><![CDATA[http://119.29.55.111:80/main]]></URL>
+    <ToUserName><![CDATA[zyqlzr]]></ToUserName>
+    <FromUserName><![CDATA[zkkkk]]></FromUserName>
+    <CreateTime>12434543654654</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[123456789]]></Content>
+    <MsgId>190876</MsgId>
+    <Encrypt><![CDATA[TZ2mmW3nW4AG6S3ReTLxH5oHOU7zVl1lEsJMXqsetPlPbIPYcdAT/YiZ6kJLn5JaaEleEOx5tUUVKh3sdOmC2mwATFpwsvcx1fZ4aGeXbhGu+xTfDc/tU5SCV+9M8dTrA42W3R01mWJbth+2cIvcjRDAlckC8vtK9io1qLUTEK5XQyF0P0eS0X0dB6ah9WBeETvcBeiCuP3bG0SxNC5hrkBwzs3vvrklGbCUL4dQbuQ69RMTuHWcqgR0OkMrejiahU8a2DYHyj53ixgBOO6H4drX+qq24+DOUP4ZfAiNQ1SfmaF4GNxEcW7NpzE56EGgd3888ASB3Yz33hRWmhyeMULGXT3e5B+eFe16wMponmkJgew20vSpT5FYPOxzOYogYkyIa66E/nKaIVHVABe56cn/JV8wlHpa5trZTbGOOnU=]]></Encrypt>
+</xml>
+
+request_arguments={'nonce': ['1703038040'], 'timestamp': ['1422064839'], 'encrypt_type': ['aes'], 'msg_signature': ['c531181a5829db738c504aa129f7a25026ced2d5'], 'signature': ['3ffc6f0e857db22d76d45f8e9176b666b6f6a8b5']}
+
+
+parse_msg ok,dict= {'FromUserName': 'zkkkk', 'URL': 'http://119.29.55.111:80/main', 'MsgId': '190876', 'ToUserName': 'zyqlzr', 'Content': '123456789', 'MsgType': 'text', 'Encrypt': 'TZ2mmW3nW4AG6S3ReTLxH5oHOU7zVl1lEsJMXqsetPlPbIPYcdAT/YiZ6kJLn5JaaEleEOx5tUUVKh3sdOmC2mwATFpwsvcx1fZ4aGeXbhGu+xTfDc/tU5SCV+9M8dTrA42W3R01mWJbth+2cIvcjRDAlckC8vtK9io1qLUTEK5XQyF0P0eS0X0dB6ah9WBeETvcBeiCuP3bG0SxNC5hrkBwzs3vvrklGbCUL4dQbuQ69RMTuHWcqgR0OkMrejiahU8a2DYHyj53ixgBOO6H4drX+qq24+DOUP4ZfAiNQ1SfmaF4GNxEcW7NpzE56EGgd3888ASB3Yz33hRWmhyeMULGXT3e5B+eFe16wMponmkJgew20vSpT5FYPOxzOYogYkyIa66E/nKaIVHVABe56cn/JV8wlHpa5trZTbGOOnU=', 'CreateTime': '12434543654654'}

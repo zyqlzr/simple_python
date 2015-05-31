@@ -1,0 +1,17 @@
+<xml>
+	<URL><![CDATA[http://119.29.55.111:80/main]]></URL>
+	<ToUserName><![CDATA[zyqlzr]]></ToUserName>
+	<FromUserName><![CDATA[zkkkk]]></FromUserName>
+	<CreateTime>12434543654654</CreateTime>
+	<MsgType><![CDATA[text]]></MsgType>
+	<Content><![CDATA[123456789]]></Content>
+	<MsgId>190876</MsgId>
+</xml>
+
+request_method=POST
+request_url=/main
+request_headers={'Content-Length': '286', 'Connection': 'Keep-Alive', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0', 'Host': '119.29.55.111', 'Pragma': 'no-cache', 'Content-Type': 'text/xml'}
+
+request_body:
+<xml><URL><![CDATA[http://119.29.55.111:80/main]]></URL><ToUserName><![CDATA[zyqlzr]]></ToUserName><FromUserName><![CDATA[zkkkk]]></FromUserName><CreateTime>12434543654654</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[123456789]]></Content><MsgId>190876</MsgId></xml>
+request_arguments={}

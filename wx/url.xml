@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<URL>
+<PageView>
+  <pageset name="welcome">
+    <page key="welcome" />
+    <page key="huoguo" />
+	<page key="wm" />
+	<page key="spicy_seafood" />
+	<page key="wifi" />
+  </pageset>
+  <pageset name="homepage">
+    <page key="homepage" />
+    <page key="wm" />
+	<page key="huoguo" />
+    <page key="spicy_seafood" />
+  </pageset>
+  <pageset name="recommend">
+    <page key="discount_beer" />
+	<page key="huoguo" />
+    <page key="roast" />
+  </pageset>
+  <pageset name="wm-recommand">
+    <page key="wm" />
+	<page key="wm_noodle" />
+  </pageset>
+  <pageset name="delicious">
+    <page key="spicy_seafood" />
+    <page key="huoguo" />
+	<page key="soybean_milk" />
+  </pageset>
+  <pageset name="discount">
+    <page key="discount_beer" />
+    <page key="story_beer" />
+  </pageset>
+</PageView>
+<Pages>
+<Item key="welcome" title="饭优悠，为您的生活加饭" des="轻松享受美味" pic_url="http://www.fanyoyo.cn/logo/logo.jpg" url="http://www.fanyoyo.cn/yoyo/fanyoyo.htm"/>
+<Item key="homepage" title="饭优悠*U美食" des="点击吧，你的美味" pic_url="http://www.fanyoyo.cn/logo/logo.jpg" url="http://www.fanyoyo.cn/yoyo/homepage.htm"/>
+<Item key="spicy_seafood" title="饭优悠*麻辣海鲜" des = "麻辣鲜香，辣爽一夏！！！" pic_url="http://www.fanyoyo.cn/food/haixian_bg.jpg" url="http://www.fanyoyo.cn/yoyo/hx.html" />
+<Item key="huoguo" title="饭优悠*烤鱼鸡煲" des = "物美价廉，口味还是那么地道" pic_url="http://www.fanyoyo.cn/food/huoguo_bg.jpg" url="http://www.fanyoyo.cn/yoyo/huoguo.html" />
+<Item key="order" title="敬请期待" des="饭优悠*外卖 将于四月末登场" pic_url="http://www.fanyoyo.cn/logo/logo.jpg" url="http://www.fanyoyo.cn/yoyo/homepage.htm"/>
+<Item key="wm-recommand" title="敬请期待" des="饭优悠*外卖 将于四月末登场" pic_url="http://www.fanyoyo.cn/logo/logo.jpg" url="http://www.fanyoyo.cn/yoyo/wait.html"/>
+<Item key="roast" title="饭优悠*U烤肉" des = "超级实惠烤肉，单人/双人/四人套餐，劲爆一夏" pic_url="http://www.fanyoyo.cn/yoyo/uroast.jpg" url="http://www.fanyoyo.cn/yoyo/u_roast_des.html" />
+<Item key="position" title="饭优悠*地址 荔芳村b栋" des = "南山大道和学府路交叉口附近，学府路荔芳村b栋，欢迎惠顾！" pic_url="http://www.fanyoyo.cn/yoyo/find.jpg" url="http://www.fanyoyo.cn/yoyo/position.html" />
+<Item key="discount" title="饭优悠*天天特价" des = "亲们，快来吧，劲爆特价，天天有惊喜！" pic_url="http://www.fanyoyo.cn/food/discount.jpg" url="http://www.fanyoyo.cn/yoyo/discount.html" />
+<Item key="order" title="敬请期待" des = "亲们，快来吧，劲爆特价，天天有惊喜！" pic_url="http://www.fanyoyo.cn/logo/logo.jpg" url="http://www.fanyoyo.cn/yoyo/order.html" />
+<Item key="open" title="饭优悠*开工福利" des = "duang~~~，饭优悠开工福利来了！" pic_url="http://www.fanyoyo.cn/yoyo/open.jpg" url="http://www.fanyoyo.cn/yoyo/open.html" />
+<Item key="story_beer" title="麦子君的啤酒" des = "3月20日至4月20日，饭优悠啤酒天天送的故事！" pic_url="http://www.fanyoyo.cn/story/story.jpg" url="http://www.fanyoyo.cn/story/story_beer.html" />
+<Item key="discount_beer" title="饭优悠*啤酒天天送" des = "3月20日至4月20日，来饭优悠就送啤酒！！！" pic_url="http://www.fanyoyo.cn/food/discount.jpg" url="http://www.fanyoyo.cn/yoyo/discount_beer.html" />
+<Item key="1" title="饭优悠*星期一" des = "缤纷套餐，天天换口味！！！" pic_url="http://www.fanyoyo.cn/wm_pic/wm_xq.jpg" url="http://www.fanyoyo.cn/test?week=1" />
+<Item key="2" title="饭优悠*星期二" des = "缤纷套餐，天天换口味！！！" pic_url="http://www.fanyoyo.cn/wm_pic/wm_xq.jpg" url="http://www.fanyoyo.cn/test?week=2" />
+<Item key="3" title="饭优悠*星期三" des = "缤纷套餐，天天换口味！！！" pic_url="http://www.fanyoyo.cn/wm_pic/wm_xq.jpg" url="http://www.fanyoyo.cn/test?week=3" />
+<Item key="4" title="饭优悠*星期四" des = "缤纷套餐，天天换口味！！！" pic_url="http://www.fanyoyo.cn/wm_pic/wm_xq.jpg" url="http://www.fanyoyo.cn/test?week=4" />
+<Item key="5" title="饭优悠*星期五" des = "缤纷套餐，天天换口味！！！" pic_url="http://www.fanyoyo.cn/wm_pic/wm_xq.jpg" url="http://www.fanyoyo.cn/test?week=5" />
+<Item key="6" title="饭优悠*星期六" des = "缤纷套餐，天天换口味！！！" pic_url="http://www.fanyoyo.cn/wm_pic/wm_xq.jpg" url="http://www.fanyoyo.cn/test?week=6" />
+<Item key="7" title="饭优悠*星期七" des = "缤纷套餐，天天换口味！！！" pic_url="http://www.fanyoyo.cn/wm_pic/wm_xq.jpg" url="http://www.fanyoyo.cn/test?week=7" />
+<Item key="wifi" title="饭优悠WIFI密码：2397665" des = "外卖 烧烤 烤鱼鸡煲 炒菜！！！" pic_url="http://www.fanyoyo.cn/yoyo/wifi.jpg" url="http://www.fanyoyo.cn/yoyo/huoguo.html" />
+<Item key="wm" title="饭优悠*缤纷外卖，天天换口味" des = "饭优悠每天供应三款套餐，每天都是一样的口味，还有饺子等面食，快来点吧！！！" pic_url="http://www.fanyoyo.cn/wm_pic/wm_xq.jpg" url="http://www.fanyoyo.cn/wm?menu=week" />
+<Item key="wm_noodle" title="面食*外卖" des = "饭优悠提供手工饺子，炒米粉和炒河粉！！！" pic_url="http://www.fanyoyo.cn/wm_pic/noodle.jpg" url="http://www.fanyoyo.cn/wm_html/wm_noodle.html" />
+</Pages>
+</URL>
